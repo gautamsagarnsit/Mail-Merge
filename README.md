@@ -82,7 +82,7 @@ Click on <b> If "Less secure app access" is off for your account</b>. Under the 
 <a id="4"></a>
 ## Contact
 - For any suggestions or doubt regarding this project you can mail me @ gautamsagarnsit@gmail.com. You can also add suggestions in TODO section above.
-- Linkedin: www.linkedin.com/gautamsagarnsit
+- Linkedin: www.linkedin.com/in/gautamsagarnsit
 - Developers interested in contributing to this project are most welcome.
 
 
