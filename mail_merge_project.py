@@ -99,12 +99,12 @@ def send_merged_mail(Subject,source_name,docx_file_name,attachment_name,login_de
                 for loop in range(iter):
                     start=words.find("{",end)
                     end=words.find("}",start)
-                    place_holder=words[start+2:end].upper()
+                    place_holder=words[start+2:end]
                     
-                    if(place_holder in headers):
+                    if(place_holder.upper() in headers):
                         place_holders.append(place_holder)
                         para_index.append(i)
-                        index=headers.index(place_holder)
+                        index=headers.index(place_holder.upper())
                         merge_index.append(index+1)
                         return_message.append("\""+place_holder+"\""+": Merge field Added")
                     else:
@@ -214,7 +214,6 @@ def send_merged_mail(Subject,source_name,docx_file_name,attachment_name,login_de
             print("No Email Address Found")
         else:
             receiver_email=ws.Cells(i,Email_col).Value
-            #server.sendmail(sender_email, receiver_email, text) 
             
             try:
                 server.sendmail(sender_email, receiver_email, text) 
