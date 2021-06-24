@@ -83,7 +83,7 @@ def send_merged_mail(Subject,source_name,docx_file_name,attachment_name,login_de
     merge_index=[]
     place_holders=[]
     para_index=[]
-    Email_col=2
+    Email_col= headers.index(upper("Email"))
     i=0
     for para in temp.paragraphs:   
         for words in para.text.split():
