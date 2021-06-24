@@ -47,7 +47,7 @@ Mail Merge is desktop application which lets the user to send bulk emails. Mail 
 - Add placeholders wherever you want in a docx file.
 - Format for placeholder: {{placeholder_name}}
 - One placeholder can not be nested into another placeholder.
-- "placeholder_name" must be exactly same as the header name in the excel file. Check for captilisation also.
+- "placeholder_name" must be exactly same as the header name in the excel file. Case of placeholders are ignored and all every header and placeholder is treated as upper case strings.
 - You can add as many as images and text you want.
 - Save and close the file.
 - See "template.docx" for reference
