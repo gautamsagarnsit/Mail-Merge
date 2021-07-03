@@ -64,10 +64,11 @@ Click on <b> If "Less secure app access" is off for your account</b>. Under the 
 - Optional: Add Attachments
 - Optional: Add Subject
 - Finally click on Send Mail Button and wait for Mail Merge to send all mails at once.
-- Sometimes Windows protection or antivirus blocks the exe file from running. You can either bypass the block or use the method mentioned in next sub-section.
+- Sometimes Windows protection or antivirus blocks the exe file from running. You can either bypass the block or run directly from script as mentioned in the next subsection.
 - mail_merge_gui.exe may not be updated. TO convert python script to .exe file use this command:<b>pip install pyinstaller</b> then after installation run: <b>pyinstaller --onefile -w 'mail_merge_gui.py'</b>.
 
 ### Running directly from script
+- Make sure all required modules as installed. See the list of required modules under <b> Modules</b> section.
 - Open mail_merge_gui.py file
 - Run the file to open the GUI
 - Repeat steps mentioned in above section(Desktop Application)
