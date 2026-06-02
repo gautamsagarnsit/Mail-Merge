@@ -52,7 +52,7 @@ def get_headers():
     last_row=i-1
     return (last_row,last_col, placeholders)
 
-def send_merged_mail(Subject,source_name,docx_file_name,attachment_name,login_details):
+def send_merged_mail(Subject, source_name, docx_file_name, attachment_name, login_details):
     return_message=[]
     if len(login_details)!=4 or login_details[1]!=0:
         return_message.append('Login Failed')
